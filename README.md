@@ -33,10 +33,11 @@ It demonstrates how deep learning can be applied to **Natural Language Processin
   - 4–5 ⭐ → Positive  
 
 ---
-
-## 📜 Installation  
-Clone the repository and install dependencies:  
-```bash
-git clone https://github.com/yourusername/amazon-lstm-sentiment.git
-cd amazon-lstm-sentiment
-pip install -r requirements.txt
+flowchart LR
+    A[📥 Load Amazon Review Data] --> B[🧹 Data Cleaning & Preprocessing]
+    B --> C[🔤 Tokenization & Padding]
+    C --> D[🔠 Word Embedding Layer]
+    D --> E[🧠 LSTM Layer]
+    E --> F[🔍 Dense Layer]
+    F --> G[📊 Softmax Output Layer]
+    G --> H[✅ Sentiment Prediction]
