@@ -24,7 +24,7 @@ It demonstrates how deep learning can be applied to **Natural Language Processin
 
 ---
 
-## 📂 Dataset  
+##  Result
 - **Source:** [Amazon Product Reviews Dataset](https://nijianmo.github.io/amazon/index.html)  
 - **Format:** CSV/JSON with `reviewText` and `overall` rating.  
 - **Sentiment Mapping:**  
@@ -33,3 +33,6 @@ It demonstrates how deep learning can be applied to **Natural Language Processin
   - 4–5 ⭐ → Positive  
 
 ---
+
+
+
